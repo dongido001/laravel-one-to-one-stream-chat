@@ -22,8 +22,8 @@ class ChatController extends Controller
         $this->client =  new StreamClient(
             getenv("STREAM_API_KEY"), 
             getenv("STREAM_API_SECRET"),
-            '',
-            '',
+            null,
+            null,
             9
         );
     }
@@ -39,7 +39,7 @@ class ChatController extends Controller
     }
 
     /**
-     * Generate Token from Stream Chat
+     * Get all users
      */
     public function getUsers(Request $request)
     {

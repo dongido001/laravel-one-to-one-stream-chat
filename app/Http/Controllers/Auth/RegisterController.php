@@ -68,9 +68,9 @@ class RegisterController extends Controller
         $client = new StreamClient(
             getenv("STREAM_API_KEY"), 
             getenv("STREAM_API_SECRET"),
-            '',
-            '',
-            9
+            null,
+            null,
+            9 // timeout
         );
 
         $user = [

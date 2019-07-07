@@ -34,7 +34,6 @@ export default {
     props: ['client', 'chat', 'autheduser'],
     data() {
         return {
-            userId: 1,
             message: "",
             messages: [],
             collapsed: false,

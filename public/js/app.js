@@ -2476,7 +2476,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   props: ['client', 'chat', 'autheduser'],
   data: function data() {
     return {
-      userId: 1,
       message: "",
       messages: [],
       collapsed: false,
