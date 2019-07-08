@@ -51,7 +51,6 @@ input[type="text"] {
     overflow-y: scroll; 
     height: 300px;
 }
-
 .user-box {
     width: 350px;
     position: relative;
@@ -65,24 +64,20 @@ input[type="text"] {
     bottom: 0;
     right: 0;
 }
-
 .active-chats {
     margin-right: 330px;
     position: relative;
 }
-
 .stream-chat {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-
 .users {
     overflow-y: scroll; 
     height: 320px;
     padding: 0px;
 }
-
 .user {
     padding: 10px;
     // border: 1px solid gray;

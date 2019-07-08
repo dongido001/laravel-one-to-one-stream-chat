@@ -2512,7 +2512,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               _ref = _context.sent;
               data = _ref.data;
               channel = this.client.channel('messaging', data.channel, {
-                name: 'Awesome channel about traveling',
+                name: 'Awesome channel',
                 members: [this.username, to_username]
               });
               this.channel = channel; // fetch the channel state, subscribe to future updates

@@ -56,7 +56,7 @@ export default {
         })
 
         const channel = this.client.channel('messaging', data.channel, {
-            name: 'Awesome channel about traveling',
+            name: 'Awesome channel',
             members: [this.username, to_username]
         });
 
