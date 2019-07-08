@@ -40,13 +40,11 @@ a. Then update the `.env` file with your correct database details.
 
 b. Update your Stream Chat API key
 
-        ```sh
-        STREAM_API_KEY=<YOUR STREAM API KEY>
-        STREAM_API_SECRET=<YOUR STREAM API SECRET>
+    STREAM_API_KEY=<YOUR STREAM API KEY>
+    STREAM_API_SECRET=<YOUR STREAM API SECRET>
 
-        MIX_STREAM_API_KEY="${STREAM_API_KEY}"
-        MIX_STREAM_API_SECRET="${STREAM_API_SECRET}"
-        ```
+    MIX_STREAM_API_KEY="${STREAM_API_KEY}"
+    MIX_STREAM_API_SECRET="${STREAM_API_SECRET}"
 
 5. Run migration
 
