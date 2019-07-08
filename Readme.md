@@ -37,6 +37,7 @@ cp .env.example .env
 ```
 
 a. Then update the `.env` file with your correct database details.
+
 b. Update your Stream Chat API key
 
         ```sh
