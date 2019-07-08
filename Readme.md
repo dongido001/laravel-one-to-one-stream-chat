@@ -36,8 +36,8 @@ yarn run dev
 cp .env.example .env
 ```
 
-    a . Then update the `.env` file with your correct database details.
-    b. Update your Stream Chat API key
+a . Then update the `.env` file with your correct database details.
+b. Update your Stream Chat API key
 
         ```sh
         STREAM_API_KEY=<YOUR STREAM API KEY>
