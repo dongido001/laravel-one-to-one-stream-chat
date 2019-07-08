@@ -54,6 +54,6 @@ Now visit the development URL to start chatting: [http://localhost:8000](http://
 
 ## Built with
 
-1. Vue.js
-2. Laravel
-3. Stream Chat
+1. [Vue.js](https://vuejs.org/)
+2. [Laravel](https://laravel.com/)
+3. [Stream Chat](https://getstream.io/chat/docs/)
