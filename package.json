@@ -25,6 +25,6 @@
     },
     "dependencies": {
         "dotenv": "^8.0.0",
-        "stream-chat": "^0.13.6"
+        "stream-chat": "^8.2.1"
     }
 }
